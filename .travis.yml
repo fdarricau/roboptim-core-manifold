@@ -32,7 +32,6 @@ before_install:
   - ./.travis/run  before_install
   - if [ "$CXX" = "g++" ];
     then
-      export CC=gcc-4.8;
       export CXX=g++-4.8;
     fi;
 matrix:
